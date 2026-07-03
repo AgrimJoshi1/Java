@@ -1,0 +1,16 @@
+package Class4;
+
+public class leet326 {
+    class Solution {
+    public boolean isPowerOfFour(int n) {
+        if(n<=0){
+            return false;
+        }
+        while(n%4==0){
+            n=n/4;
+        }
+        return n==1;
+    }
+}
+    
+}

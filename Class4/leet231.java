@@ -1,0 +1,13 @@
+package Class4;
+
+public class leet231 {
+    class Solution {
+    public boolean isPowerOfTwo(int n) {
+        if (n <= 0) {
+            return false;
+        }
+        return (n & (n - 1)) == 0;
+    }
+}
+    
+}
