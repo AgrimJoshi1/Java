@@ -18,10 +18,10 @@ public class lab3 {
     public static void main(String[] args) {
         lab3 obj = new lab3();
         obj.assign(5,2);
-        int res = obj.add();
-        int res = obj.add();
-        int res = obj.add();
-        int res = obj.add();
-        System.out.println("Addition =" + res);
+        // int res = obj.add();
+        // int res = obj.add();
+        // int res = obj.add();
+        // int res = obj.add();
+        // System.out.println("Addition =" + res);
     }
 }
