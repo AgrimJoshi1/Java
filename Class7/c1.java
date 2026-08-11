@@ -15,6 +15,7 @@ public class c1 {
         for (int i = 0; i < 5; i++) {
             a[i] = in.nextInt();
         }
+        in.close();
     }
 
     public void findsumavg() {
@@ -40,6 +41,7 @@ public class c1 {
         obj.inputData1();
         obj.findsumavg();
         obj.displayresults();
+
     }
 }
     
