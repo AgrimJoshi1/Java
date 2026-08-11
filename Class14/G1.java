@@ -26,9 +26,9 @@ public class G1 {
         Main1.b = 29;
 
         System.out.println(ob1.a);
-        System.out.println(ob1.b);
+        System.out.println(Main1.b);
         System.out.println(ob2.a);
-        System.out.println(ob2.b);
+        System.out.println(Main1.b);
         System.out.println(Main1.b);
     }
 }
